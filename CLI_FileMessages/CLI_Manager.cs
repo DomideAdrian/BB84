@@ -1,11 +1,13 @@
-﻿using BB84Protocol.BusinessLogic;
+﻿using System.Text;
+using System.Text.Json;
+
+using BB84Protocol.BusinessLogic;
 using BB84Protocol.BusinessLogic.Interfaces;
 using BB84Protocol.Helpers;
 using BB84Protocol.Models;
+
 using CLI_FileMessages.ClassicComunication;
 using CLI_FileMessages.Infrastructure;
-using System.Text;
-using System.Text.Json;
 
 namespace CLI_FileMessages;
 

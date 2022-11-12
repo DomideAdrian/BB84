@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BB84Protocol", "BB84Protocol\BB84Protocol.csproj", "{A8F1AD3A-40E6-4AF3-98C1-3C98A91BE189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI_FileMessages", "CLI_FileMessages\CLI_FileMessages.csproj", "{2214C789-723C-4ADB-98B7-5DB79DEA0FBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8F1AD3A-40E6-4AF3-98C1-3C98A91BE189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F1AD3A-40E6-4AF3-98C1-3C98A91BE189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F1AD3A-40E6-4AF3-98C1-3C98A91BE189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F1AD3A-40E6-4AF3-98C1-3C98A91BE189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2214C789-723C-4ADB-98B7-5DB79DEA0FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2214C789-723C-4ADB-98B7-5DB79DEA0FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2214C789-723C-4ADB-98B7-5DB79DEA0FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2214C789-723C-4ADB-98B7-5DB79DEA0FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68766D3D-B7C2-48D3-A534-7E90E3684E3C}
+	EndGlobalSection
+EndGlobal

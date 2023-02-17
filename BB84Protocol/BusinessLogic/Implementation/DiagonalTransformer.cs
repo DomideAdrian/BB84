@@ -10,8 +10,8 @@ public class DiagonalTransformer : IGateTransformer
 
     public bool GetValue(PulseDirection pulse) => pulse switch
     {
-        PulseDirection.DiagonalUp => false,
-        PulseDirection.DiagonalDown => true,
+        PulseDirection.DiagonalUp => true,
+        PulseDirection.DiagonalDown => false,
         _ => GetRandomBit()
     };
 

@@ -6,7 +6,6 @@ using CLI_FileMessages.ClassicComunication;
 using CLI_FileMessages.Infrastructure;
 using System.Text;
 using System.Text.Json;
-
 namespace CLI_FileMessages;
 
 internal class CLI_Manager
@@ -128,8 +127,7 @@ internal class CLI_Manager
             "Options:\n" +
             "1 - Initialize connexion\n" +
             "2 - Generate key U2 or init process U1\n" +
-            "3 - Generate key U1" +
-            "To choose an option write its corresponding number and press ENTER."
+            "3 - Generate key U1"
             );
     }
 
